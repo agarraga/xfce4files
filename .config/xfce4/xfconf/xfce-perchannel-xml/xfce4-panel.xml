@@ -48,6 +48,9 @@
         <value type="string" value="thunar"/>
         <value type="string" value="networkmanager applet"/>
       </property>
+      <property name="known-items" type="array">
+        <value type="string" value="discord1"/>
+      </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
