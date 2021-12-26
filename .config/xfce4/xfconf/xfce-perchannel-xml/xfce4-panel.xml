@@ -21,7 +21,6 @@
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
-        <value type="int" value="10"/>
         <value type="int" value="16"/>
         <value type="int" value="7"/>
         <value type="int" value="15"/>
@@ -31,11 +30,21 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="button-title" type="string" value="WARNING"/>
+      <property name="button-title" type="string" value="Prograpps"/>
       <property name="show-button-title" type="bool" value="true"/>
+      <property name="button-icon" type="string" value="emblem-favorite"/>
     </property>
     <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="uint" value="1"/>
+      <property name="grouping" type="uint" value="0"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="3"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="false"/>
     </property>
     <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -51,13 +60,13 @@
       <property name="known-items" type="array">
         <value type="string" value="discord1"/>
       </property>
+      <property name="menu-is-primary" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
-    <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-format" type="string" value="%_H:%M"/>
       <property name="mode" type="uint" value="3"/>
@@ -81,7 +90,7 @@
       </property>
       <property name="appearance" type="uint" value="1"/>
       <property name="button-title" type="uint" value="3"/>
-      <property name="custom-title" type="string" value="DO NOT CLICK"/>
+      <property name="custom-title" type="string" value="SYSTEM"/>
     </property>
     <property name="plugin-7" type="string" value="cpugraph"/>
     <property name="plugin-11" type="string" value="xkb"/>
