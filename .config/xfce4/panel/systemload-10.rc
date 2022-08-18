@@ -4,15 +4,15 @@ Timeout_Seconds=1
 Click_Command=xfce4-taskmanager
 
 [SL_Cpu]
-Enabled=false
-Use_Label=true
-Color=rgb(0,0,192)
+Enabled=true
+Use_Label=false
+Color=rgb(115,210,22)
 Text=cpu
 
 [SL_Mem]
 Enabled=true
 Use_Label=false
-Color=rgb(0,192,0)
+Color=rgb(245,121,0)
 Text=mem
 
 [SL_Swap]

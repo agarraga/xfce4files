@@ -1,5 +1,0 @@
-original article
-https://medium.com/@happy.cerberus/best-way-to-manage-your-dotfiles-2c45bb280049
-
-porper config order 
-https://unix.stackexchange.com/questions/353924/how-to-copy-all-my-xfce-settings-between-two-computers-machines
